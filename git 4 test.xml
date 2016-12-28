@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<server ServerName="ICONICS.SimulatorOPCDA.2" ServerIP="192.168.0.117" ServerDescription="ICONICS OPC Server">
+  <group GroupID="0" GroupName="GP0-1" GroupDescription="分组1" UpdateRate="250" IsActive="true" IsSubscribed="true">
+	<item>
+      <ClientHandle>1</ClientHandle>
+      <ItemID>Numeric.Random</ItemID>
+	  <PageID>GP0-0</PageID>
+      <Operation>0</Operation>
+    </item>
+    <item>
+      <ClientHandle>2</ClientHandle>
+      <ItemID>Numeric.Ramp</ItemID>
+	  <PageID>GP0-1</PageID>
+      <Operation>0</Operation>
+    </item>
+    <item>
+      <ClientHandle>3</ClientHandle>
+      <ItemID>Numeric.Memory</ItemID>
+	  <PageID>GP0-2</PageID>
+      <Operation>1</Operation>
+    </item>
+  </group>
+  <group GroupID="1" GroupName="GP1-1" GroupDescription="分组2" UpdateRate="250" IsActive="true" IsSubscribed="true">
+    <item>
+      <ClientHandle>1</ClientHandle>
+      <ItemID>Logical.Random</ItemID>
+	  <PageID>GP1-0</PageID>
+      <Operation>0</Operation>
+    </item>
+    <item>
+      <ClientHandle>2</ClientHandle>
+      <ItemID>Textual.Numerals</ItemID>
+	  <PageID>GP1-1</PageID>
+      <Operation>0</Operation>
+    </item>
+  </group>
+</server>
