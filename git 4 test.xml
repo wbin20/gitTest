@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <server ServerName="ICONICS.SimulatorOPCDA.2" ServerIP="192.168.0.117" ServerDescription="ICONICS OPC Server">
-  <group GroupID="0" GroupName="GP0-1" GroupDescription="分组1" UpdateRate="250" IsActive="true" IsSubscribed="true">
+  <group GroupID="0" GroupName="GP0-0" GroupDescription="分组1" UpdateRate="250" IsActive="true" IsSubscribed="true">
 	<item>
       <ClientHandle>1</ClientHandle>
       <ItemID>Numeric.Random</ItemID>
